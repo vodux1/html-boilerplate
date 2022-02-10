@@ -27,3 +27,11 @@ Se urca in mod normal pe github cu comenzile de `all`, `commit`, `push`
 Pe laptop2 trebuie sincronizat codul. Se va rula:
 
 `git pull` va aduce in locat toate schimbarile de pe github
+
+- situatia 2: pe laptop2 s-au modificat si urcat schimbari:
+
+Se urmeaza instructiunile de `add` si `commit`
+
+Inainte de a da push, se va da un `git pull` pentru a sincroniza ce e locat cu ce e pe github
+
+Se poate rula `git push` care va contine modificarile locate si cele de pe github
